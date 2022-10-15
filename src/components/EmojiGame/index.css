@@ -1,0 +1,23 @@
+/* Write your code here. */
+.bg-container {
+  background: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+}

@@ -1,0 +1,47 @@
+/* Write your code here. */
+.results-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #9796f0;
+  opacity: 0.7;
+  padding: 40px;
+}
+
+.result-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.res-img {
+  width: 200px;
+}
+
+.win-text {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.res-score {
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.res-mark {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  padding: 5px 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
